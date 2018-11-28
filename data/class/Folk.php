@@ -8,4 +8,7 @@
 
 class Folk {
 
+	private $name, $heigth, $lifeTime;
+
+
 }

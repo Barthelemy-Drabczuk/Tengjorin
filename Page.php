@@ -12,19 +12,24 @@ class Page {
 
     private $title;
 
-    function Page ($title) {
-        $this->title = $title;
-    }
+	/**
+	 * Page constructor.
+	 * @param $title
+	 */
+	public function __construct ($title) {
+		$this->title = $title;
+	}
 
-    function start () {
+
+	public function start () {
         start_page($this->title);
     }
 
-    function end () {
+    public function end () {
         end_page();
     }
 
-    function addContent ($content, $id = '') {
+    public function addContent ($content, $id = '') {
         echo PHP_EOL.'<div id="'.$id.'">'
                 .PHP_EOL.$content.
             PHP_EOL.'</div>'.PHP_EOL;
