@@ -15,6 +15,8 @@
                     <td>Akhab</td>
                 </tr>
             </table>';
-    $univers->addContent($content);
+    if (isset($content)) {
+        $univers->addContent($content, 'univers-menu');
+    }
     $univers->end();
 ?>

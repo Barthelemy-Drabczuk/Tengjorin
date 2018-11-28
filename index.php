@@ -9,7 +9,7 @@
 	</article>';
     $nonUsefulContent = '';
     if (isset($content)) {
-        $index->addContent($content, 'page-content');
+        $index->addContent($content, 'first-article');
     }
     $index->end();
 ?>

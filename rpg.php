@@ -26,6 +26,8 @@ require_once 'Page.php';
                     <td>La sale bête</td>
                 </tr>
             </table>';
-    $rpg->addContent($content);
+    if (isset($content)) {
+        $rpg->addContent($content, 'rpg-menu');
+    }
     $rpg->end();
 ?>

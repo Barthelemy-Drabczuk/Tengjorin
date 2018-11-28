@@ -20,10 +20,12 @@ function start_page ($title) {
 				<ul><a href="univers.php">Univers</a></ul>
 				<ul><a href="rpg.php">JDR</a></ul>
 			</li>
-		</nav>';
+		</nav>
+		<div id="page-content">';
 }
 
 function end_page () {
-	echo '	</body>
+	echo '    </div>
+	</body>
 </html>';
 }
