@@ -5,13 +5,13 @@
  * Date: 27/11/18
  * Time: 22:30
  */
-function start_page () {
+function start_page ($title) {
 	echo '<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="style.css">
-		<title>Tengjordin</title>
+		<title>'.$title.'</title>
 	</head>
 	<body>
 		<nav>
