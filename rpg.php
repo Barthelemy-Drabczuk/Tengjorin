@@ -6,10 +6,11 @@
  * Time: 08:35
  */
 
-require_once "page.utiles.php";
-start_page();
-?>
-            <table>
+require_once 'Page.php';
+
+    $rpg = new Page('JDR');
+    $rpg->start();
+    $content = '<table>
                 <tr>
                     <th>Introduction</th>
                     <th>Classes</th>
@@ -24,7 +25,7 @@ start_page();
                     <td>LA BOULE MAGIQUE</td>
                     <td>La sale bête</td>
                 </tr>
-            </table>
-<?php
-    end_page();
+            </table>';
+    $rpg->addContent($content);
+    $rpg->end();
 ?>

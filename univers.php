@@ -1,9 +1,9 @@
 <?php
-	require_once 'page.utiles.php';
-	start_page();
-?>
+    require_once 'Page.php';
 
-            <table>
+    $univers = new Page('Univers');
+    $univers->start();
+    $content = '<table>
                 <tr>
                     <th>Personnages importants</th>
                     <th>Histoire</th>
@@ -14,9 +14,7 @@
                     <td>La bonne histoire</td>
                     <td>Akhab</td>
                 </tr>
-            </table>
-<?php
-
-    end_page();
-
+            </table>';
+    $univers->addContent($content);
+    $univers->end();
 ?>
