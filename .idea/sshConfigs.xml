@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="ssh-percevase.alwaysdata.net" id="94ecf01c-8644-48ae-be30-9edee9eb0b42" port="22" customName="AD" nameFormat="CUSTOM">
+        <option name="customName" value="AD" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>
